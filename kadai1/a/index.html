@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Yukari HASHIMOTO" />
+    <meta name="keywords" content="html,  css, javascript" />
+    <title>最終課題</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>履修</h1>
+
+        <nav>
+            ・履修
+            ・副専攻
+            ・教職課程
+
+        </nav>
+
+    </header>
+
+    <h2>自分が管理する別ページへのリンク</h2>
+    <!-- ../:相対パス指定…自分が今いる場所の一つ上のフォルダ（サンプルコード）にいる -->
+    <a href="../b/index.html">副専攻</a>
+    <a href="../c/index.html">教職課程</a>
+    <!-- 絶対パス指定：自分以外はうまく使えない -->
+
+    <div>
+        <h2>履修スケジュール</h2>
+
+        <div>
+            <h3>一週間スケジュール</h3>
+
+        </div>
+    </div>
+
+    <div>
+
+
+        <div>
+
+            <table>
+                <!-- tr:行を表すタグ -->
+                <tr>
+                    <!-- th:ヘッダーを表す、太字になるタグ -->
+                    <th></th>
+                    <th>月曜日</th>
+                    <th>火曜日</th>
+                    <th>水曜日</th>
+                    <th>木曜日</th>
+                    <th>金曜日</th>
+                </tr>
+                <tr>
+                    <!-- td:セルを表すタグ -->
+                    <!-- Shift+Alt+↓で複製 -->
+                    <!-- Alt＋↓↑で行移動 -->
+                    <th>1限</th>
+                    <td rowspan="2">×</td>
+                    <td rowspan="4">×</td>
+                    <td colspan="2">×</td>
+
+                    <td>幾何学</td>
+                </tr>
+                <tr>
+                    <!-- td:セルを表すタグ -->
+                    <!-- Shift+Alt+↓で複製 -->
+                    <th>2限</th>
+                    <td>数学科教育法</td>
+                    <td>情報科学</td>
+                    <td>マルチメディア論</td>
+                </tr>
+                <tr>
+                    <!-- td:セルを表すタグ -->
+                    <!-- Shift+Alt+↓で複製 -->
+                    <th>3限</th>
+                    <td rowspan="2">数理科学実験</td>
+                    <td>ケーススタディⅡ</td>
+                    <td>プログラミング</td>
+                    <td>代数学Ⅱ</td>
+                </tr>
+                <tr>
+                    <!-- td:セルを表すタグ -->
+                    <!-- Shift+Alt+↓で複製 -->
+                    <th>４限</th>
+                    <td>アフリカ経済論</td>
+                    <td>キャリアビジョンⅡ</td>
+                    <td rowspan="2">×</td>
+
+                </tr>
+                <tr>
+                    <!-- td:セルを表すタグ -->
+                    <!-- Shift+Alt+↓で複製 -->
+                    <th>5限</th>
+                    <td>データ解析</td>
+                    <td>インクルーシブ教育論</td>
+                    <td>×</td>
+                    <td>教育方法</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div>
+            <h2>履修科目</h2>
+        </div>
+
+        <h3>理工学部専門科目</h3>
+        <ul>
+            <li>数理科学実験</li>
+            <li>データ解析</li>
+            <li>数学科教育法</li>
+            <li>ケーススタディ</li>
+            <li>情報科学</li>
+            <li>幾何学</li>
+            <li>マルチメディア論</li>
+            <li>代数学Ⅱ</li>
+
+        </ul>
+
+        <h3>ケーススタディの取り組み方</h3>
+        <ol>
+            <li>ノートを2冊用意する</li>
+            <li>プリントを読み、板書用をノートに書きこむ</li>
+            <li>当日黒板で授業をする</li>
+
+        </ol>
+
+        <h3>1～5限の時間帯</h3>
+
+        <dl>
+
+            <dt>1限</dt>
+            <dd>9:00~10:30</dd>
+            <dt>2限</dt>
+            <dd>10:45~12:15</dd>
+            <dt>3限</dt>
+            <dd>13:05~14:35</dd>
+            <dt>4限</dt>
+            <dd>14:50~16:20</dd>
+            <dt>5限</dt>
+            <dd>16:35~18:05</dd>
+
+        </dl>
+
+
+    </div>
+
+
+    <footer>
+        Copyright &copy; Yukari HASHIMOTO, All Rights Reserved.
+        <!-- &copy;は©のこと -->
+    </footer>
+
+
+
+</body>
+
+</html>
